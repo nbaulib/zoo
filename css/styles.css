@@ -14,11 +14,9 @@ body {
 }
 
 nav {
-    margin: 1rem;
+    margin: 1rem 0;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 0.5rem; 
+    justify-content: space-between;
 }
 
 /* animal buttons windows style*/
@@ -31,6 +29,7 @@ nav a {
     border-style: solid;
     border-width: 2px;
     border-color: var(--accent2) var(--text) var(--text) var(--accent2);
+    display: inline-block;
 }
 
 nav a:hover {
