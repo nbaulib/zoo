@@ -6,11 +6,11 @@
 }
 
 body {
-    max-width: 60vw;
+    max-width: 55em;
     margin: auto;
 
     font-family: sans-serif;
-    
+
     background-color: var(--background);
     color: var(--text);
 }
@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-    transform: translateY(-4px);
+    transform: translateY(2px);
     border-color: var(--text) var(--accent2) var(--accent2) var(--text);
 }
 
