@@ -1,5 +1,18 @@
+:root {
+    --accent1: #b2f7c5;
+    --accent2: #8de4aa;
+    --text: #003e1f;
+}
+
 body {
     font-family: sans-serif;
+    color: var(--text);
+}
+
+nav a {
+    background-color: var(--accent2);
+    text-decoration: none;
+    font-weight: bold;
 }
 
 header {
@@ -14,4 +27,12 @@ img {
     height: 25em;
     margin: auto;
     display: block;
+}
+
+footer a {
+    color: darkcyan;
+}
+
+footer a:hover {
+    color: darkblue;
 }
