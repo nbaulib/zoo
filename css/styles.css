@@ -6,6 +6,8 @@
 }
 
 body {
+    max-width: 60vw;
+    margin: auto;
     font-family: sans-serif;
     background-color: var(--background);
     color: var(--text);
@@ -13,6 +15,10 @@ body {
 
 nav {
     margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0.5rem; 
 }
 
 /* animal buttons windows style*/
@@ -33,24 +39,12 @@ nav a:hover {
     border-color: var(--text) var(--accent2) var(--accent2) var(--text);
 }
 
-header {
-    text-align: center;
-}
-
 h1 {
     text-transform: uppercase;
 }
 
 img {
     height: 26em;
-    margin: auto;
-    display: block;
-}
-
-main {
-    max-width: 700px;
-    /* center main */
-    margin: 40px auto;
 }
 
 main p {
