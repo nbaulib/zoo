@@ -1,18 +1,33 @@
 :root {
+    --text: #003118;
+    --background: #f2fff3;
     --accent1: #b2f7c5;
     --accent2: #8de4aa;
-    --text: #003e1f;
 }
 
 body {
     font-family: sans-serif;
+    background-color: var(--background);
     color: var(--text);
 }
 
+nav {
+    /* background-color: aqua; */
+    margin: 1rem;
+}
+
 nav a {
-    background-color: var(--accent2);
+    color: var(--text);
+    background-color: var(--accent1);
     text-decoration: none;
     font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-style: solid;
+    border-width: 2px;
+}
+
+nav a:hover {
+    background-color: var(--accent2);
 }
 
 header {
@@ -30,9 +45,10 @@ img {
 }
 
 footer a {
-    color: darkcyan;
+    color: var(--text);
 }
 
 footer a:hover {
-    color: darkblue;
+    color: var(--background);
+    background-color: var(--text);
 }
