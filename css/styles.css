@@ -1,3 +1,13 @@
 body {
     font-family: sans-serif;
 }
+
+header {
+    text-align: center;
+}
+
+img {
+    height: 25em;
+    margin: auto;
+    display: block;
+}
