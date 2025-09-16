@@ -38,6 +38,7 @@ nav a:hover {
 }
 
 h1 { text-transform: uppercase; }
+header h1, header h3 { text-align: center; }
 
 img { height: 26em;}
 
