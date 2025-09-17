@@ -37,10 +37,17 @@ nav a:hover {
     border-color: var(--text) var(--accent2) var(--accent2) var(--text);
 }
 
-h1 { text-transform: uppercase; }
-header h1, header h3 { text-align: center; }
+h1 {
+    text-transform: uppercase;
+}
 
-img { height: 26em;}
+.text-center {
+    text-align: center;
+}
+
+img {
+    height: 26em;
+}
 
 main p {
     font-size: 1.1em;
@@ -48,7 +55,9 @@ main p {
     text-align: justify;
 }
 
-footer a { color: var(--text); }
+footer a {
+    color: var(--text);
+}
 
 footer a:hover {
     color: var(--background);
