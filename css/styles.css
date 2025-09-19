@@ -19,7 +19,7 @@ body.home {
     align-items: center;
     min-height: 100vh;
     margin: auto;
-    background-image: url("/img/green-pattern.jpg");
+    background-image: url("https://github.com/nbaulib/zoo/blob/main/img/green-pattern.jpg?raw=true");
     background-size: 40vh;
 }
 
