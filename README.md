@@ -1,2 +1,3 @@
 # zoo
-nbaulib.github.io/zoo/
+Nico Bautista-Libreros
+www.nbaulib.github.io/zoo/
